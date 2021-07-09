@@ -19,16 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://aap-development.fcc.gov/prefill')
+WebUI.navigateToUrl('https://aap-development.fcc.gov/2/prefill')
 
-WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_No PrefillForm 602 123Form 175 123Fo_2890b2'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_Select.No PrefillForm 175 Auction 12_7674c0'), 
     '3: 3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_Select.No PrefillForm 602Form 175 Au_6baa7c'), 
+    '2: -1', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Auction Application Portal/button_Save  Continue'))
 

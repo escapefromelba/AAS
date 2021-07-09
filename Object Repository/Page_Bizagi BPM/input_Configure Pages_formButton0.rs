@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__formly_17_input_entity_name_1</name>
+   <name>input_Configure Pages_formButton0</name>
    <tag></tag>
-   <elementGuidId>2f708694-ce66-4eee-b7c0-28f38a0513d8</elementGuidId>
+   <elementGuidId>ccf0819c-761b-45f3-aa48-ec5c06817fbc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'formly_20_input_entity_name_1']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='formly_17_input_entity_name_1']</value>
+         <value>//input[@id='formButton0']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#formly_17_input_entity_name_1</value>
+         <value>#formButton0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,64 +26,85 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>ordinal</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-invalid</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formly_20_input_entity_name_1</value>
+      <value>formButton0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>class</name>
       <type>Main</type>
-      <value>required</value>
+      <value>ui-bizagi-button ui-button-text  ui-button ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>ec0a5a02-0f81-44a7-8d64-ac090a01d61b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formly_20_input_entity_name_1&quot;)</value>
+      <value>id(&quot;formButton0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='formly_17_input_entity_name_1']</value>
+      <value>//input[@id='formButton0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='collapseForm']/div/form/formly-form/formly-field[2]/formly-wrapper-form-field/div/formly-field-input/input</value>
+      <value>//div[@id='ui-bizagi-wp-project-plan-content-dashboard']/div/div/div/div[2]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='modal']/div/div/div[2]/form/formly-form/formly-field[2]/formly-wrapper-form-field/div/formly-field-input/input</value>
+      <value>//div[2]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

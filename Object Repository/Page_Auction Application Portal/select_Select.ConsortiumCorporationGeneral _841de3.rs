@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__formly_17_input_entity_name_1</name>
+   <name>select_Select.ConsortiumCorporationGeneral _841de3</name>
    <tag></tag>
-   <elementGuidId>2f708694-ce66-4eee-b7c0-28f38a0513d8</elementGuidId>
+   <elementGuidId>7ed7538d-4560-4d65-9384-ee3833a94fff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'formly_20_input_entity_name_1']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='formly_17_input_entity_name_1']</value>
+         <value>//select[@id='formly_12_select_entity_5']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#formly_17_input_entity_name_1</value>
+         <value>#formly_12_select_entity_5</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,16 +33,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formly_20_input_entity_name_1</value>
+      <value>formly_12_select_entity_5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,38 +45,66 @@
       <value>required</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Select...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...ConsortiumCorporationGeneral PartnershipGovernment EntityIndividualLimited Liability CompanyLimited Liability PartnershipLimited PartnershipTrustUnincorporated AssociationOther</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formly_20_input_entity_name_1&quot;)</value>
+      <value>id(&quot;formly_12_select_entity_5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='formly_17_input_entity_name_1']</value>
+      <value>//select[@id='formly_12_select_entity_5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='collapseForm']/div/form/formly-form/formly-field[2]/formly-wrapper-form-field/div/formly-field-input/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Applicant Legal Classification'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='modal']/div/div/div[2]/form/formly-form/formly-field[2]/formly-wrapper-form-field/div/formly-field-input/input</value>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

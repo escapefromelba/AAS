@@ -1,92 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Note Please click on the Attachments bu_262ebf</name>
+   <name>li_Work on it</name>
    <tag></tag>
-   <elementGuidId>04fa1162-c366-4bd5-8869-449d2feb140d</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>ec114e3a-9389-494f-b147-25def803eeb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'alert alert-warning']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal Classification'])[1]/following::div[1]</value>
+         <value>//li[@id='casetemplate-box-wrapper-601']/div/div[4]/ul/li[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.alert.alert-warning</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>li.bz-wp-btn.bz-wp-btn-xs.bz-wp-btn-primary.btn-workonit</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>alert alert-warning</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bz-wp-btn bz-wp-btn-xs bz-wp-btn-primary btn-workonit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-idcase</name>
+      <type>Main</type>
+      <value>601</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Work on it</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Note: Please click on the Attachments button to attach any necessary documents
-</value>
+      <value>Work on it</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container mt-3&quot;]/page-legal-classification[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/formly-form[1]/formly-field[2]/formly-alert[1]/div[@class=&quot;alert alert-warning&quot;]</value>
+      <value>id(&quot;casetemplate-box-wrapper-601&quot;)/div[@class=&quot;casetemplate-box-element&quot;]/div[@class=&quot;casetoolbar&quot;]/ul[1]/li[@class=&quot;bz-wp-btn bz-wp-btn-xs bz-wp-btn-primary btn-workonit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal Classification'])[1]/following::div[1]</value>
+      <value>//li[@id='casetemplate-box-wrapper-601']/div/div[4]/ul/li[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JM'])[2]/following::li[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Please click on the Attachments button to attach any necessary documents']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Closed Auction'])[1]/following::li[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//formly-alert/div</value>
+      <value>//div[4]/ul/li[3]</value>
    </webElementXpaths>
 </WebElementEntity>

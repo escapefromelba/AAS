@@ -17,27 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://aap-development.fcc.gov/2/legal-classification')
 
-WebUI.navigateToUrl('https://aap-development.fcc.gov/legal-classification')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes'), '2: true', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes'), '1: true', true)
+WebUI.scrollToElement(findTestObject('Page_Auction Application Portal/button_Add Row'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Auction Application Portal/button_Add Row'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_EntityIndividual'), '0: entity', 
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_EntityIndividual'), '1: entity', 
     true)
 
 WebUI.setText(findTestObject('Object Repository/Page_Auction Application Portal/input__formly_17_input_entity_name_1'), 
     'Acme')
 
+WebUI.waitForElementClickable(findTestObject('Page_Auction Application Portal/button_Add Member'), 0)
+
+WebUI.scrollToElement(findTestObject('Page_Auction Application Portal/button_Add Member'), 0)
+
 WebUI.click(findTestObject('Page_Auction Application Portal/button_Add Member'))
+
+WebUI.scrollToElement(findTestObject('Page_Auction Application Portal/button_Delete'), 0)
 
 WebUI.click(findTestObject('Page_Auction Application Portal/button_Delete'))
 

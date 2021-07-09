@@ -6,6 +6,10 @@
    <elementGuidId>94c49331-624f-476e-b9f6-0c9a2cb25e5d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'formly_14_select_is_npe_1']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='formly_11_select_is_npe_10']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#formly_11_select_is_npe_10</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formly_11_select_is_npe_10</value>
+      <value>formly_14_select_is_npe_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <value>required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

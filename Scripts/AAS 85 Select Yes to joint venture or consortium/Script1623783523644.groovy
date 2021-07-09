@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://aap-development.fcc.gov/2/legal-classification')
 
-WebUI.navigateToUrl('https://aap-development.fcc.gov/legal-classification')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes'), '2: true', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
+WebUI.scrollToElement(findTestObject('Page_Auction Application Portal/div_If yes, list each member of the rural w_e2aed9'), 
+    0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
+WebUI.waitForElementVisible(findTestObject('Page_Auction Application Portal/div_If yes, list each member of the rural w_e2aed9'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes'), '1: true', true)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_Auction Application Portal/div_If yes, list each member of the rural w_e2aed9'))
 

@@ -19,14 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://aap-development.fcc.gov/legal-classification')
+WebUI.navigateToUrl('https://aap-development.fcc.gov/2/legal-classification')
 
-WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_ConsortiumCorporationGeneral Partner_6031df'), 
-    '6: llp', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_Select.ConsortiumCorporationGeneral _841de3'), 
+    '1: consortium', true)
 

@@ -31,9 +31,17 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	// Put your code here.
+	WebUI.openBrowser('')
+	
+	WebUI.navigateToUrl('https://aap-development.fcc.gov')
+	
+	WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
+	
+	WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
+	
+	WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
 }
 
 /**

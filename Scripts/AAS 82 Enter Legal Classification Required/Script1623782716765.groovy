@@ -17,24 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://aap-development.fcc.gov/2/legal-classification')
 
-WebUI.navigateToUrl('https://aap-development.fcc.gov/legal-classification')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_Select.ConsortiumCorporationGeneral _841de3'), 
+    '1: consortium', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Username_username'), 'Jacob.Miller@icf.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Password_password'), 'EiwTGsPISPOZEsJiXJ23gQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_FCC (External) - Sign In/input_Remember me_okta-signin-submit'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_ConsortiumCorporationGeneral Partner_6031df'), 
-    '10: other', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes'), '0: false', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_Select.NoYes'), '1: false', 
     true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes_1'), '0: false', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Auction Application Portal/select_NoYes_1'), '1: false', 
     true)
 
-WebUI.verifyElementNotClickable(findTestObject('Page_Auction Application Portal/button_Save  Continue'))
+WebUI.verifyElementNotHasAttribute(findTestObject('Page_Auction Application Portal/button_Save  Continue'), 'Disabled', 
+    0)
 

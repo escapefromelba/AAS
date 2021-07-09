@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Note Please click on the Attachments bu_262ebf</name>
+   <name>h4_Pending</name>
    <tag></tag>
-   <elementGuidId>04fa1162-c366-4bd5-8869-449d2feb140d</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>c852b3b7-110f-4e54-8c01-2c28583e3b86</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'alert alert-warning']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal Classification'])[1]/following::div[1]</value>
+         <value>//div[@id='row-cases']/div/div/div/h4</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.alert.alert-warning</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>h4.wdg-db-title</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>alert alert-warning</value>
+      <value>h4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wdg-db-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Note: Please click on the Attachments button to attach any necessary documents
-</value>
+      <value>Pending</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container mt-3&quot;]/page-legal-classification[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/formly-form[1]/formly-field[2]/formly-alert[1]/div[@class=&quot;alert alert-warning&quot;]</value>
+      <value>id(&quot;row-cases&quot;)/div[@class=&quot;col-md-6 col-lg-4&quot;]/div[@class=&quot;bz-card wdg-db-card clearfix wdg-db-card-cases pendings-ico&quot;]/div[@class=&quot;bz-card-text&quot;]/h4[@class=&quot;wdg-db-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal Classification'])[1]/following::div[1]</value>
+      <value>//div[@id='row-cases']/div/div/div/h4</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Cases'])[1]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Friday, July 2, 2021'])[1]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Please click on the Attachments button to attach any necessary documents']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Following'])[1]/preceding::h4[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Plans'])[1]/preceding::h4[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pending']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//formly-alert/div</value>
+      <value>//h4</value>
    </webElementXpaths>
 </WebElementEntity>

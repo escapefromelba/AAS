@@ -6,6 +6,10 @@
    <elementGuidId>a39b0d68-777a-407a-bbcc-75d37b634255</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'formly_20_select_entity_type_0']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='formly_17_select_entity_type_0']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#formly_17_select_entity_type_0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,14 +32,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <value>form-control ng-pristine ng-invalid is-invalid ng-touched</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formly_17_select_entity_type_0</value>
+      <value>formly_20_select_entity_type_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <value>required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
